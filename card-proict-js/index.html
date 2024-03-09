@@ -6,9 +6,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <script src="script.js" defer></script> -->
+  <!-- <script src="test.js" defer></script> -->
+  <script src="posibil.js" defer></script>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-
   <title>Frontend Mentor | Interactive card details form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -23,76 +25,75 @@
   <div class="section_card">
     <div class="card">
       <div class="card_front">
-        <img src="./images/card-logo.svg" alt="logo" class="card_logo">
         <div class="card_container">
-          <img src="./images/bg-card-front.png" alt="card front">
-          <h4 id="number"> 0000 0000 0000 0000</h4>
+          <h4 class="card_front_number" id="number"> 0000 0000 0000 0000</h4>
           <div class="card_info">
-            <span id="name">Jane Appleseed</span>
+            <span class="card_front_details_content" id="name">Jane Appleseed</span>
             <span id="date">
-              <span id="month">00</span>/
-              <span id="year">00</span>
+              <span class="card_front_details_content"  id="month">00</span>/
+              <span class="card_front_details_content" id="year">00</span>
             </span>
           </div>
 
         </div>
       </div>
       <div class="card_back">
-        <img src="./images/bg-card-back.png" alt="back card">
         <span id="cvc">000</span>
       </div>
     </div>
   </div>
 
   <div class="section_form">
-    <form>
+    <form class="form_container">
       <div class="block_1">
-        <label for="input_name">
-          Cardholder Name
-        </label>
-        <input type="text" placeholder="e.g. Jane Appleseed" id="input_name" required>
+        <label class="form_label" for="input_name">Cardholder Name</label><br>
+        <input class="form_input" type="text" placeholder="e.g. Jane Appleseed" id="input_name" required>
+        <p class="error_name"></p>
       </div>
+
       <div class="block_2">
-        <label for="input_number">Card Number</label>
-        <input type="number" placeholder="e.g. 1234 5678 9123 0000" oninput="if(this.value.length > this.maxlength) this.value=this.value.slice(o,this.maxlength)" maxlength="16" minlength="16" id="input_number" required>
+        <label class="form_label" for="input_number">Card Number</label><br>
+        <input class="form_input" type="text" placeholder="e.g. 1234 5678 9123 0000"   id="input_number" >
+        <p class="error_number"></p>
       </div>
+
       <div class="block_3">
         <div class="date_block">
-          <label for="date_block">Exp. Date (MM/YY)</label>
+          <label class="form_label" for="date_block">Exp. Date (MM/YY)</label><br>
           <div class="two_boxes_input">
-            <div> <input type="number" placeholder="MM" oninput="if(this.value.length > this.maxlength)this.value=this.value.slice(0,maxlength)" minlength="2" maxlength="2" id="input_month" required></div>
-            <div> <input type="number" placeholder="YY" oninput="if(this.value.length > this.maxlength)this.value=this.value.slice(0,maxlength)" minlength="2" maxlength="2" id="input_year" required></div>
+            <input class="form_input expiration_date" type="text" placeholder="MM"    id="input_month" >
+            <input class="form_input expiration_year" type="text" placeholder="YY" id="input_year"  >
+            <p class="error_mounth"></p>
+            <p class="error_year"></p>
           </div>
         </div>
+        
+      </div>
+      <div class="block_4">
         <div class="cvc_block">
-          <label for="input_cvc">CVC</label>
-          <input type="number" placeholder="e.g. 123" oninput="if(this.value.length>this.maxlength)this.value=this.value.slice(0,maxlength)" maxlength="3" id="input_cvc" required>
+          <label class="form_label" for="input_cvc">CVC</label><br>
+          <input class="form_input security_code" type="text" placeholder="e.g. 123"   id="input_cvc"  >
+          <p class="error_cvc"></p>
         </div>
       </div>
-      <button id="submite_btn" type="submit">Confirm
-      </button>
+      
+      <div class="block_5">
+        <button id="submit_btn" type="button" class="form_button">Confirm</button>
+      </div>
+      
+      
+
     </form>
 
-    <div class="thank_you hidden">
+   <div class="thank_you hidden">
       <img src="./images/icon-complete.svg" alt="Completed">
-      <h1>Thank you!</h1>
+      <h1 class="complete_state_title">Thank you!</h1>
       <p>We've added your card detail</p>
-      <button>Continue</button>
+      <button class="complete_state_button">Continue</button>
     </div>
-  </div>
+  </div> 
 
 </div>
-
-  <!-- Completed state start -->
-
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
 
