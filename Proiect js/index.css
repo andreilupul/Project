@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{background-color: 00000;}
+
+.header_container{
+    display: flex;
+    margin-bottom:10px;
+    /* justify-content: space-around; */
+    align-items: center;
+    border: 1px solid #A11312;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.icon{
+    margin-right: 200px;
+}
+
+.Note{
+    color: FFE5CC;
+    margin-right: 30vh;
+   
+    
+}
+
+.note_text, .Button_addList, .button_removList {
+    margin-right: 50px;
+    padding: 8px;
+    border-radius: 9px;
+    /* Style */
+    border-color: A11312;
+    background-color: 000;
+    color: ffe5cc;
+    
+}
+
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+   
+    
+
+}
+
+/* List */
+
+.container_note{
+    height: 300px;
+    width: 190px;
+    padding: 8px;
+    background-color: ffe5cc;
+    border: 2px solid #A11312;
+    border-radius: 9px;
+     
+}
+
+
+    
+.deletList{
+    margin-right: 50px;
+    padding: 3px;
+    border-radius: 9px;
+    /* Style */
+    border-color: A11312;
+    background-color: 000;
+    color: ffe5cc;
+}
+
+.list_addItem, .list_removeList, .list_textItem {
+   margin: 3px;
+    margin-right: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    /* Style */
+    border-color: A11312;
+    background-color: 000;
+    color: ffe5cc;
+
+
+}
+
+
+

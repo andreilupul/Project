@@ -1,0 +1,170 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background-home-desktop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+
+.nav{
+    width: 1000px;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+
+
+.nav a{
+  text-decoration: none;
+  margin: 20px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16 px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 2.7px;
+  position: relative;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+.nav a b{
+    color: #ffffff;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.7px; 
+    
+}
+
+.linie{
+    width: 650px;
+   height: 1px;
+   flex-shrink: 0;
+   opacity: 0.2515;
+   background: #FFF;
+   z-index: 2;
+   overflow: visible;
+   margin-top: 45px;
+}
+
+.linie hr{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.logo{
+margin-top: 24px;
+margin-right: 60px;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid white;
+    
+}
+
+/* Nav Bar ............................. */
+
+.text{
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top: 200px;
+}
+
+.p1{
+    color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.725px;
+text-transform: uppercase;
+}
+
+.p2{
+    color: #FFF;
+font-family: Bellefair;
+font-size: 150px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.p3{
+    color: #D0D6F9;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+width: 444px;
+margin-top: 20px;
+text-transform: uppercase;
+}
+
+.p4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+    margin-left: 70%;
+    margin-top: -15%;
+    display: flex;
+
+}
+.p4 a{
+    margin-top: 15%;
+    color: #0B0D17;
+    font-family: Bellefair;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 200px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.p4 a:hover{
+    width: 450px;
+height: 450px;
+flex-shrink: 0;
+border-radius: 450px;
+opacity: 0.1036;
+background: #FFF;
+}
+
+
+
+
+
+
+

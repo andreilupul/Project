@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url(background-technology-desktop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.nav{
+    width: 1000px;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  margin: 20px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 2.7px;
+  position: relative;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+.nav a b{
+    color: #ffffff;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.7px; 
+    
+}
+
+.linie{
+    width: 650px;
+   height: 1px;
+   flex-shrink: 0;
+   opacity: 0.2515;
+   background: #FFF;
+   z-index: 2;
+   overflow: visible;
+   margin-top: 45px;
+}
+
+.linie hr{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.logo{
+margin-top: 24px;
+margin-right: 60px;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid white; 
+}
+
+
+/* Nav Bar */
+
+
+
+.text-main{
+    align-items: center;
+    display: flex;
+    position: relative;
+    /* top: 76px; */
+    /* left: 165.73px; */
+    margin-top: 76px;
+    /* margin-left: 165px; */
+    margin-left: 100px;
+    
+}
+
+.imigg{
+    position: relative;
+    margin-left: 200%;
+    margin-top: -80%;
+
+}
+
+
+.p1{
+    text-transform: uppercase;
+    padding-bottom:167px;
+
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.725px;
+}
+
+.b1{
+    text-transform: uppercase;
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 4.725px;
+    opacity: 0.25;
+}
+
+.p2{
+    text-transform: uppercase;
+    padding-bottom:11px;
+    
+    color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+}
+
+.p3{
+    text-transform: uppercase;
+    padding-bottom:17px;
+
+    color: #FFF;
+font-family: Bellefair;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.p4{
+    width: 444px;
+    color: #D0D6F9;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+
+
+
+.ul{        
+    list-style: none; 
+  }
+  
+  .ul li {
+    list-style-type: none;
+    margin: 60px 0;
+    
+  
+  }
+  
+  .ul a {
+  /* color: #0B0D17; */
+    color: white;
+  text-decoration: none;
+  
+  border: 1px solid #ffffff; 
+  padding: 20px;  
+  
+  width: 200px;
+  height: 200px; 
+  border-radius: 80%; 
+  
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  
+  }
+  
+  .ul a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+  }
+
+  .ull{
+    position: relative;
+    top: 40px;
+    padding-right: 114.5px;
+    
+    
+  }
+
+  .ull-1{
+    display: none;
+  }
+
+  .img-tableta{
+    display: none;
+  }
+
+  @media (max-width:768px) {
+
+    .img-tableta{
+        display:block;
+    }
+
+    body{
+        background-image: url(background-technology-tablet.jpg);
+        
+    }
+
+.conteiner{
+margin: auto;
+justify-content: flex-start;
+margin-left: 80px;
+}
+
+.nav{
+    width: 75%;
+    height: 96px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    
+}
+
+.nav a{
+    position:static;
+
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.362px;
+}
+
+.linie{
+    display: none;
+}
+.nav b{
+    display: none;
+}
+
+/* nav */
+
+.imigg{
+    display: none;
+}
+
+.p1 .b1{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.375px;
+opacity: 0.25;
+}
+
+.p1{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.375px;
+text-transform: uppercase;
+}
+
+.p2{
+    color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+}
+
+.p3{
+    color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+width: 457px;
+}
+
+.p4{
+    color: #D0D6F9;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 458px;
+}
+
+
+.text-main{
+    margin: 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-1{        
+    list-style: none; 
+  }
+  
+  .ul-1 li {
+    list-style-type: none;
+    margin:  44px 16px ;
+    
+  }
+
+  .ull-1{
+    display:block;
+  }
+  
+  .ul-1 a {
+  /* color: #0B0D17; */
+    color: white;
+  text-decoration: none;
+  
+  border: 1px solid #ffffff; 
+  padding: 20px;  
+  
+  width: 200px;
+  height: 200px; 
+  border-radius: 80%; 
+  
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  
+  }
+  
+  .ul-1 a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+  }
+
+  .ul-1{
+  display: flex;
+  
+    
+    
+  }
+
+.nav{
+    margin-left: 70px;
+}
+
+.conteiner{
+    margin-left: 40px;
+}
+
+.ull{
+    display: none;
+}
+
+
+
+
+  }

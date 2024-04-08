@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url(background-crew-desktop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+}
+
+.nav{
+    width: 1000px;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  margin: 20px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16 px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 2.7px;
+  position: relative;
+  right: 100px;
+  text-transform: uppercase;
+}
+
+.nav a b{
+    color: #ffffff;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.7px; 
+    
+}
+
+.linie{
+    width: 650px;
+   height: 1px;
+   flex-shrink: 0;
+   opacity: 0.2515;
+   background: #FFF;
+   z-index: 2;
+   overflow: visible;
+   margin-top: 45px;
+}
+
+.linie hr{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.logo{
+margin-top: 24px;
+margin-right: 60px;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid white; 
+}
+
+
+/* Nav bar */
+
+
+.comander{
+  float: right;
+  /* padding-top:43px ; */
+  padding-top:130px ;
+
+  padding-right: 200px; 
+    
+}
+
+.text-main{
+    display: flex;
+    position: relative;
+    /* top: 76px; */
+    /* left: 165.73px; */
+    margin-top: 76px;
+    /* margin-left: 165px; */
+    margin-left: 365px;
+    
+}
+
+.text{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.p1{
+    padding-bottom:154px;
+
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.b1{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+
+.p2{
+    padding-bottom:15px ;
+
+    opacity: 0.5042;
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.p3{
+    padding-bottom: 27px;
+
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.p4{
+    width: 444px;
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.row{
+    display: flex;
+    padding-top: 120px;
+}
+
+
+.liNav{
+    display: flex;
+}
+
+.liNav a {
+ text-decoration: none;
+width: 15px;
+height: 15px;
+flex-shrink: 0;
+border-radius:15px;
+opacity: 0.1744;
+background: #FFF;
+color: transparent;
+   
+}
+
+.liNav li {
+    list-style: none;
+    padding: 10px;
+}
+
+.liNav a:hover{
+    color: white;
+    opacity: 100%;
+}
+
+@media (max-width:768px) {
+    
+    body{
+        background-image: url(background-crew-tablet.jpg);
+        
+    }
+
+.conteiner{
+margin: auto;
+justify-content: flex-start;
+margin-left: 20px;
+}
+
+.nav{
+    width: 75%;
+    height: 96px;
+    flex-shrink: 0;
+    margin-left: 79px;
+    
+}
+
+.nav a{
+    position:static;
+
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.362px;
+}
+
+.linie{
+    display: none;
+}
+.nav b{
+    display: none;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid white; 
+}
+
+/* nav */
+
+.row{
+    padding: 0;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.comander img { 
+    width: 456.372px;
+height: 572px;
+flex-shrink: 0;
+padding: 0;
+}
+
+.comander{
+    padding: 0;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.text-main{
+    margin: 0;
+    justify-content: center;
+
+}
+
+.text{
+    align-items: normal;
+}
+
+.p1{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.375px;
+text-transform: uppercase;
+}
+
+.b1{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.375px;
+opacity: 0.25;
+}
+
+.p2{
+    color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+opacity: 0.4994;
+}
+
+.p3{
+    color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+width: 457px;
+}
+
+.p4{
+    color: #D0D6F9;
+text-align: center;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 458px;
+}
+
+
+}
