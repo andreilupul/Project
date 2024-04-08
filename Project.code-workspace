@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Project",
+			"path": "."
+		},
+		{
+			"name": "Proiect grup",
+			"path": "../Curs-main/Proiect grup"
+		},
+		{
+			"path": "../Curs-main/Proiect js"
+		},
+		{
+			"path": "../Curs-main/Proiect-main"
+		},
+		{
+			"path": "../Curs-main/X SO 0"
+		},
+		{
+			"path": "../Curs-main/todo-app-main"
+		}
+	],
+	"settings": {}
+}
