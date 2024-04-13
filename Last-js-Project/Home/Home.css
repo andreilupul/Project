@@ -62,3 +62,19 @@ span {
 #test_demodificat{
     color: white !important;
 }
+
+
+#test{
+    margin: 10px;
+    color: #01C38D;
+    background-color:black ;
+    border: none;
+
+}
+
+#test:hover{
+    color: rgb(252, 252, 252);
+}
+
+
+
