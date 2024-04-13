@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2E3133;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Nav Bar */
+.nav-item{
+    margin-left: 70px;
+}
+.nav_container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color:#DBB77B ;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+
+
+  h1 {
+    color: #DBB77B;
+  }
+  .grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    div {
+      width: 150px;
+      margin: 0 1.5rem 1.5rem 0;
+      display: inline-block;
+      width: 100%;
+      border: solid 2px black;
+      padding: 5px;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+      &:hover img {
+        filter: grayscale(0);
+      }
+      &:hover {
+        border-color: #DBB77B;
+      }
+      img {
+        width: 100%;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        transition: all .25s ease-in-out;
+      }
+      p {
+        margin: 5px 0;
+        padding: 0;
+        text-align: center;
+        font-style: italic;
+        color: white;
+      }
+    }
+  }
+  
+  
+  
+  
+  

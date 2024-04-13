@@ -1,0 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2E3133;
+    height: 100%;
+}
+/* Nav Bar */
+.nav-item{
+    margin-left: 70px;
+}
+.nav_container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color:#DBB77B ;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+
+
+

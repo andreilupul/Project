@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2E3133;
+    height: 100%;
+}
+/* Nav Bar */
+.nav-item{
+    margin-left: 70px;
+}
+.nav_container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color:#DBB77B ;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+/* ........................... */
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.form-label{
+    color: #DBB77B;
+    font-size: 48px;
+}
+
+.Contact_Us{
+    color: #DBB77B;
+    font-size:100px;
+}
+
+.form-control{
+    background: #2E3133;
+    color: #DBB77B;
+    border-color: #DBB77B; 
+}
+
+.form-control:focus {
+    background-color: initial; 
+    border-color: #DBB77B; 
+    outline: none; 
+    color: white;
+}
+
+.form-control::placeholder {
+    color: #DBB77B;
+}
+
+.btn{
+    color: #DBB77B;
+    border-color: #DBB77B;
+}
+
+.btn:hover{
+    background-color: #DBB77B;
+    border-color: #DBB77B;
+    color: black;
+}
+
+.btn:focus{
+    background-color: #DBB77B;
+    border-color: #DBB77B;
+    color: black;
+}
+
+
+.btn:active{
+    background-color: black !important;
+    border-color: black !important;
+    color: #DBB77B !important;
+}
