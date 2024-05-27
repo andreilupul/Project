@@ -14,7 +14,7 @@
 </head>
 <body>
     
-  <nav class="navbar navbar-expand-lg   ">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">House Shop</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,18 +28,16 @@
           <li class="nav-item">
             <a id="btn_addApartament" class="nav-link" href="andministrare.html">Add New Apartament</a>
           </li>
+          <li class="nav-item">
+            <a id="btn_addApartament" class="nav-link" href="Favorite.html">Favorite</a>
+          </li>
           <li class="nav-item dropdown">
             <a id="Username" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             test
+            
             </a>
             <ul class="dropdown-menu">
-                <input class="dropdown-item" type="text" name="email" id="email" placeholder="Email">
-                <input class="dropdown-item" type="text" name="password" id="password" placeholder="Password">
-                <input class="dropdown-item" type="text" name="first_Name" id="first_name" placeholder="First Name">
-                <input class="dropdown-item" type="text" name="last_name" id="last_name" placeholder="Last Name">
-                <input class="dropdown-item"  type="date" id="date" placeholder="date" required>
-              <li><hr class="dropdown-divider"></li>
-              <li><a id="btn_saveUsername" class="dropdown-item" href="#">Save Change</a></li>
+
+              <li><a id="btn_saveUsername" class="dropdown-item" href="Profile.html">Profile</a></li>
             </ul>
           </li>
         </ul>
@@ -55,14 +53,18 @@
                     <span class="input-group-text" id="inputGroup-sizing-default">City:</span>
                     <input id="City" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_city" ></p>
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Street Name:</span>
                     <input id="Street_Name" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_strName" ></p>
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Street Number:</span>
                     <input id="Street_Number" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_strNumber" ></p>
+
             </div>
             <ul class="list-group list-group-flush">
     
@@ -70,22 +72,32 @@
                     <span class="input-group-text" id="inputGroup-sizing-default">Area Size:</span>
                     <input id="Area_Size" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_areaSize" ></p>
+
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Has Ac:</span>
                     <input id="Has_Ac" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_hasAc" ></p>
+
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Year Build:</span>
                     <input id="Year_Build" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_yearBuild" ></p>
+
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Rent Price:</span>
                     <input id="Rent_Price" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_rentPrice" ></p>
+
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">Data Available:</span>
                     <input id="Data_Available" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                   </div>
+                  <p id="error_dataAvailable" ></p>
+
             </ul>
             <div class="card-body">
               <a href="#" class="card-link">Delete</a>

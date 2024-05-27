@@ -70,6 +70,21 @@ body{
     justify-content: center;
 }
 
+p{
+    color: red;
+}
+
 span{
     color: white;
+}
+
+
+
+/* .form-control{
+    border: 2px solid red !important;
+    
+} */
+
+.red-border {
+    border: 2px solid red !important;
 }

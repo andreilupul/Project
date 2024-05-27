@@ -128,8 +128,15 @@ function loginUser() {
 
     if (userFound) {
         alert("Login successful");
-        // Redirecționează către pagina principală de căutare Google
-window.location.href = "Home.html";
+
+        let logUser = {
+          email: email,
+          password: password
+      };
+
+      localStorage.setItem("logUser", JSON.stringify(logUser));
+        
+      window.location.href = "Home.html";
 
     } else {
         alert("Invalid email or password. Please try again.");

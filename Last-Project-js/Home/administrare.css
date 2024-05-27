@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar-toggler-icon{
@@ -14,7 +14,7 @@
 }
 
 .dropdown-menu{
-    background-color:#132D46 !important ;
+    background-color:#182f44 !important ;
 }
 
 #main_container{
@@ -33,6 +33,7 @@
 .card{
     color: #01966c !important;
     background-color: #191E29 !important ;
+    padding: 10px;
 
 }
 
@@ -49,9 +50,10 @@ body{
 
 }
 
-span {
-    /* color: #01966c; */
-     color: white;
+.input-group-text{
+   
+   background-color:#01966c !important;
+    
 }
 
 
@@ -63,18 +65,26 @@ span {
     color: white !important;
 }
 
-
-#test{
-    margin: 10px;
-    color: #01C38D;
-    background-color:black ;
-    border: none;
-
+#main_administratorContainer{
+    display: flex;
+    justify-content: center;
 }
 
-#test:hover{
-    color: rgb(252, 252, 252);
+p{
+    color: red;
+}
+
+span{
+    color: white;
 }
 
 
 
+/* .form-control{
+    border: 2px solid red !important;
+    
+} */
+
+.red-border {
+    border: 2px solid red !important;
+}
